@@ -23,16 +23,6 @@ module Talklist
     Session.new("How to program with Accessiblity in Mind", 45),
     Session.new("Implementing a strong code review culture", 60),
     Session.new("Scaling Rails for Black Friday", 45),
-    Session.new("Heroku: A year in review ANAS", 30),    
-    Session.new("Ruby on Rails on Minitest ANAS", 30),
-    Session.new("JavaScript ANAS", 30),
-    Session.new("Pryin open the black box ANAS", 60),
-    Session.new("Migrating a huge production codebase from sinatra to Rails ANAS", 45),
-    Session.new("How does bundler work ANAS", 30),
-    Session.new("Sustainable Open Source ANAS", 45),
-    Session.new("How to program with Accessiblity in Mind ANAS", 45),
-    Session.new("Implementing a strong code review culture ANAS", 60),
-    Session.new("Scaling Rails for Black Friday ANAS", 45),
   ]
 
 
