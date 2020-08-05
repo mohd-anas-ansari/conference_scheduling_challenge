@@ -34,6 +34,3 @@ require_relative "track"
 
 
 
-  table_data = Talks_data::List
-
-  p Track.new(table_data)
