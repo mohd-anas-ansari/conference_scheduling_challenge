@@ -1,2 +1,2 @@
 # Conference Scheduler
-conference_scheduling_challenge
+Conference_scheduling_challenge in Ruby
