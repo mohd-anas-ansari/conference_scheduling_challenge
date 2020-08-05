@@ -23,6 +23,15 @@ module Talklist
     Session.new("How to program with Accessiblity in Mind", 45),
     Session.new("Implementing a strong code review culture", 60),
     Session.new("Scaling Rails for Black Friday", 45),
+    Session.new("Heroku: A year in review", 30),    
+    Session.new("Ruby on Rails on Minitest", 30),
+    Session.new("Pryin open the black box", 60),
+    Session.new("Migrating a huge production codebase from sinatra to Rails", 45),
+    Session.new("How does bundler work", 30),
+    Session.new("Sustainable Open Source", 45),
+    Session.new("How to program with Accessiblity in Mind", 45),
+    Session.new("Implementing a strong code review culture", 60),
+    Session.new("Scaling Rails for Black Friday", 45),
   ]
 
 
