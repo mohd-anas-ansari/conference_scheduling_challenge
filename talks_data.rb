@@ -1,6 +1,7 @@
 require_relative "talk"
+require_relative "table"
 
-  module Talk_data
+  module Talks_data
     List = [
       Talk.new("Riding Rails for 10 years lightning talk", 05),
       Talk.new("Ansible : An alternative to chef lightning talk", 05),
@@ -32,4 +33,6 @@ require_relative "talk"
 
 
 
-  p Talk_data::List, "talk_data"
+  table_data = Talks_data::List
+
+  p Table.new(table_data)

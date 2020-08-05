@@ -1,5 +1,7 @@
+require "terminal-table"
+
 class Table
-  :attr_acessor :table
+  attr_accessor :table
 
   def initialize table_data
     @table = create_table(table_data)
@@ -16,6 +18,5 @@ class Table
     puts "\n"    
     puts table
     puts "\n"    
-
   end
 end
