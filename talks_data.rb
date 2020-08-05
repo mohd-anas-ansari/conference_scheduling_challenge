@@ -1,5 +1,6 @@
 require_relative "talk"
 require_relative "table"
+require_relative "track"
 
   module Talks_data
     List = [
@@ -35,4 +36,4 @@ require_relative "table"
 
   table_data = Talks_data::List
 
-  p Table.new(table_data)
+  p Track.new(table_data)
