@@ -1,10 +1,11 @@
 class Talk
   attr_accessor  :title, :duration, :time
 
-  def initialize title, duration, time=0
-    @title = title
-    @duration = duration
+  def initialize talk, time
+    @title = talk.title
+    @duration = talk.duration
     @time = time
   end
+
 
 end
