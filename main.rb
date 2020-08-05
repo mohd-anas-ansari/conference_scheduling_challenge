@@ -1,6 +1,10 @@
 require_relative "talks_data"
+require_relative "table"
 
 
-table_data = Talks_data::List
+talks_data = Talks_data::List
 
-p Track.new(table_data)
+track = Track.new(talks_data)
+table = Table.new(track.talks)
+table.table
+
