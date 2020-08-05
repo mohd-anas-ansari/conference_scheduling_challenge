@@ -1,2 +1,2 @@
-# conference_scheduling_challenge
-Conference Scheduler
+# Conference Scheduler
+conference_scheduling_challenge
